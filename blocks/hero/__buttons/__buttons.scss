@@ -1,0 +1,9 @@
+.hero__buttons {
+  @include vercen;
+}
+
+@media (max-width:48em) {
+  .hero__buttons {
+    flex-direction: column;
+  }
+}

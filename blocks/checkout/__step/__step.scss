@@ -1,0 +1,35 @@
+.checkout__step {
+  position: relative;
+  @include centered;
+  flex-direction: column;
+  width: 20.9rem;
+  &:not(:last-child) {
+    margin-right: 3rem;
+    & .checkout__img::after {
+      content: '';
+      display: block;
+      width: 11rem;
+      height: .6rem;
+      background: center / contain no-repeat url('../img/dots.svg');
+      position: absolute;
+      right: -34%;
+      top: 30%;
+      transform: translate(0, 0);
+    }
+  }
+}
+
+@media (max-width:48em) {
+  .checkout__step {
+    width: 100%;    
+    &:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 14rem;
+      & .checkout__img::after {
+        transform: rotate(90deg);
+        right: 40%;
+        top: 126%;
+      }
+    }
+  }
+}

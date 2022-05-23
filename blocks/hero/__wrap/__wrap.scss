@@ -1,0 +1,10 @@
+.hero__wrap {
+  position: relative;
+  .title {
+    max-width: 78rem;
+    max-height: 27rem;
+    overflow-y: auto;
+    margin-bottom: 8.5rem;
+    @include font(700, 4.8rem, 121%);
+  }
+}

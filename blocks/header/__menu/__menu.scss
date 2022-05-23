@@ -1,0 +1,13 @@
+.header__menu {
+  @include vercen;
+  flex-wrap: wrap;
+  padding-left: 3rem;
+}
+
+@media (max-width: 48em) {
+  .header__menu {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+  }
+}

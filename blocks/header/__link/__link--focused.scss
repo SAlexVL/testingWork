@@ -1,0 +1,8 @@
+@media (min-width: 48em) {
+  .header__link--focused {
+    &:hover {
+      color: #43ABF0;
+      transition: .3s;
+    }
+  }
+}

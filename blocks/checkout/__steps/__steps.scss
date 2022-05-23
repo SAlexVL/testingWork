@@ -1,0 +1,11 @@
+.checkout__steps {
+  width: 100%;
+  @include vercen;
+  margin-bottom: 8.5rem;
+}
+
+@media (max-width:48em) {
+  .checkout__steps {
+    flex-direction: column;
+  }
+}

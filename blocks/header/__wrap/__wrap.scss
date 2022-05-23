@@ -1,0 +1,14 @@
+.header__wrap {
+  @include between;
+  .container {
+    @include between;
+  }
+}
+
+@media (max-width: 48em) {
+  .header__wrap {
+    .container {
+      display: flex;
+    }
+  }
+}

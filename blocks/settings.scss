@@ -1,0 +1,25 @@
+.active {
+  display: block;
+}
+.active-body {
+  display: block;
+  background: rgba(39, 39, 51, 0.9);
+  border: .1rem solid #3D4050;
+  border-radius: .3rem;
+}
+
+.active-header {
+  background: rgba(61, 64, 80, 0.85);
+  .select__title {
+    color: #FFFFFF;
+  }  
+}
+
+.noscroll {
+  overflow: hidden !important;
+  height: 100% !important;
+}
+
+@media (max-width: 48em) {
+
+}

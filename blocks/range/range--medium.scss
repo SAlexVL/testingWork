@@ -1,0 +1,9 @@
+.range--medium {
+  width: 66%;
+}
+
+@media (max-width:48em) {
+  .range--medium {
+    width: 100%;
+  }
+}

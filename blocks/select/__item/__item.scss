@@ -1,0 +1,15 @@
+@media (min-width: 48em) {
+  .select__item {
+    &:hover {
+      color: #42A9ED;
+    }
+  }
+}
+
+@media (max-width:48em) {
+  .select__item {
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+}

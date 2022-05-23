@@ -1,0 +1,10 @@
+.checkout__header {
+  margin-bottom: 3rem;
+  @include font(800, 3.6rem, 119%);  
+}
+
+@media (max-width:48em) {
+  .checkout__header {
+    @include font(800, 4.5rem, 119%);  
+  }
+}

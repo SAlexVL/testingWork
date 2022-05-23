@@ -1,0 +1,13 @@
+.checkout__img {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 2.5rem;
+  @include centered;
+}
+
+@media (max-width:48em) {
+  .checkout__img {
+    width: 18rem;
+    height: 18rem;
+  }
+}

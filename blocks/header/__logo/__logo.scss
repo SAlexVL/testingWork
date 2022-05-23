@@ -1,0 +1,11 @@
+.header {
+  &__logo {
+    &--color--blue {
+      font-weight: 800;
+      font-size: 28px;
+      line-height: 33px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+  }
+}

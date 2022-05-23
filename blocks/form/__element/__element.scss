@@ -1,0 +1,17 @@
+.form__element {
+  position: relative;
+  width: 31.5%;
+  height: 5rem;
+  border: .1rem solid #FFFFFF;
+  border-radius: .3rem;  
+}
+
+@media (max-width:48em) {
+  .form__element {
+    width: 100%;
+    height: 8rem;
+    &:not(:last-child) {
+      margin-bottom: 4rem;
+    }
+  }
+}

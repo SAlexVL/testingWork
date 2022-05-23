@@ -1,0 +1,16 @@
+.hero {
+  .container {
+    position: relative;
+    padding-top: 20.5rem;
+    padding-bottom: 20rem;
+    z-index: 10;
+  }
+}
+
+@media (max-width:48em) {
+  .hero {
+    .container {
+      padding-bottom: 10rem;
+    }
+  }
+}

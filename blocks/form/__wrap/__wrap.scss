@@ -1,0 +1,9 @@
+.form__wrap {
+  width: 31.5%;
+}
+
+@media (max-width:48em) {
+  .form__wrap {
+    width: 100%;
+  }
+}

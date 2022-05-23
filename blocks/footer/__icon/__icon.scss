@@ -1,0 +1,14 @@
+.footer__icon {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+@media (max-width:48em) {
+  .footer__icon {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 2rem;
+  }
+}

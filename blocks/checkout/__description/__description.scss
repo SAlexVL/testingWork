@@ -1,0 +1,12 @@
+.checkout__description {
+  @include font(400, 1.6rem, 119%);
+  text-align: center;
+  height: 4rem;
+  overflow-y: auto;
+}
+
+@media (max-width:48em) {
+  .checkout__description {
+    @include font(400, 2.6rem, 119%);
+  }
+}

@@ -1,0 +1,11 @@
+.select__title {
+  overflow: hidden;
+  @include dots-text;
+  @include font(400, 1.8rem, 122%);
+}
+
+@media (max-width:48em) {
+  .select__title {
+    @include font(400, 2.8rem, 122%);
+  }
+}

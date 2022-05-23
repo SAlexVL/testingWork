@@ -1,0 +1,10 @@
+.select__header {
+  @include between;
+  padding: 1.7rem 1.3rem 1.1rem;
+}
+
+@media (max-width:48em) {
+  .select__header {
+    padding-top: 2.4rem;
+  }
+}

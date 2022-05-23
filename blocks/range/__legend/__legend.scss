@@ -1,0 +1,12 @@
+.range__legend {
+  @include between;
+  margin-bottom: 2rem;
+  @include font(400, 1.8rem, 122%);
+}
+
+@media (max-width:48em) {
+  .range__legend {
+    margin-bottom: 4rem;
+    @include font(400, 2.6rem, 122%);
+  }
+}

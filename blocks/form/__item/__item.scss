@@ -1,0 +1,23 @@
+.form__item {
+  position: relative;
+  @include between;
+  &:nth-child(2) {
+    margin-top: 3rem;
+    margin-bottom: 5.2rem;
+  }
+  &:nth-child(3) {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 48em) {
+  .form__item {
+    &:nth-child(1) {
+      flex-direction: column;
+    }
+    &:nth-child(2) {
+      margin-top: 6rem;
+      flex-direction: column;
+    }
+  }
+}

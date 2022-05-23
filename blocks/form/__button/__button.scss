@@ -1,0 +1,21 @@
+.form__button {
+  padding: 1.75rem 13.9rem 1.35rem;
+  max-width: 38rem;
+  @include font(600, 1.5rem, 100%);
+  @include dots-text;
+  text-transform: uppercase;
+}
+
+@media (min-width:48em) {
+  .form__button:hover {
+    background: #0F8FE7;
+  }
+}
+
+@media (max-width:48em) {
+  .form__button {
+    padding: 3rem 10rem;
+    max-width: 40rem;
+    @include font(600, 2.8rem, 100%);
+  }
+}

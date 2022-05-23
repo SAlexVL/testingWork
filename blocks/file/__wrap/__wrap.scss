@@ -1,0 +1,12 @@
+.file__wrap {
+  width: 100%;
+  height: 5rem;
+  cursor: pointer;
+  @include centered;
+}
+
+@media (max-width:48em) {
+  .file__wrap {
+    height: 8rem;
+  }
+}

@@ -1,0 +1,10 @@
+.range__title {
+  max-width: 92%;
+  @include dots-text;
+}
+
+@media (max-width:48em) {
+  .range__title {
+    max-width: 85%;
+  }
+}

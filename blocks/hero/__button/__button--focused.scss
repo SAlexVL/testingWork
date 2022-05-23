@@ -1,0 +1,12 @@
+@media (min-width: 48em) {
+  .hero__button--focused {
+    &:first-child:hover {
+      background: #0F8FE7;
+    }
+    &:last-child:hover {
+      background: #C3C3C3;
+      color: #FFFFFF;
+      transition: .3s;
+    }
+  }
+}

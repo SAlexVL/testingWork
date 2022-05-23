@@ -1,0 +1,17 @@
+.header__link {
+  &:not(:last-child) {
+    margin-right: 6rem;
+  }
+  @include font(600, 1.3rem, 123%); 
+  transition: .3s;
+}
+
+@media (max-width: 48em) {
+  .header__link {
+    padding-top: 4rem;
+    font-size: 3rem;
+    &:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.checkout__subheader {
+  margin-bottom: 7.5rem;
+  @include font(400, 1.8rem, 122%);
+  text-align: center;
+}
+
+@media (max-width:48em) {
+  .checkout__subheader {
+    @include font(400, 2.6rem, 122%);
+  }
+}

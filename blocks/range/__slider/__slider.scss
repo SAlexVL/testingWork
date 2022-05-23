@@ -1,0 +1,39 @@
+.range__slider {
+  &, & .noUi-handle {
+    box-shadow: none;
+  }
+  .noUi-handle::before,.noUi-handle::after {
+    display: none;
+  }
+  .noUi-handle {
+    height: 2.37rem;
+    width: 2.37rem;
+    top: -.9rem;
+    right: -1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #42A9ED;
+    border: .3rem solid #286690;
+  }
+}
+
+.noUi-target {
+  height: .6rem;
+  background: rgba(255, 255, 255, 0.7);
+  border: .1rem solid #FFFFFF;
+}
+
+@media (max-width:48em) {
+  .range__slider {
+    .noUi-handle {
+      height: 4rem;
+      width: 4rem;
+      top: -1.4rem;
+      border: .6rem solid #286690;
+    }
+  }
+  .noUi-target {
+    height: 1.6rem;
+    border: .2rem solid #FFFFFF;
+  }
+}

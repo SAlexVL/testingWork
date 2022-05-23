@@ -1,0 +1,13 @@
+.range {
+  .noUi-base {
+    .noUi-origin:nth-child(3) {
+      display: none;
+    }
+  }
+}
+
+@media (max-width:48em) {
+  .range {
+    padding-bottom: 6rem;
+  }
+}

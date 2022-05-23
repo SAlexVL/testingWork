@@ -1,0 +1,21 @@
+.hero__img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  & img {
+    object-fit: cover;
+  }
+  z-index: -1;
+}
+
+@media (max-width: 48em) {
+  .hero__img {
+    height: 100%;
+    img {
+      margin-top: 0;
+      object-fit: none;
+      object-position: 66% 0;
+    }
+  }
+}

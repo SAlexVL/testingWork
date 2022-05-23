@@ -1,0 +1,10 @@
+.header__cross {
+  display: none;
+}
+
+@media (max-width: 48em) {
+  .header__cross {
+    width: 5rem;
+    height: 4rem;
+  }
+}

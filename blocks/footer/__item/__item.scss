@@ -1,0 +1,11 @@
+.footer__item {
+  display: flex;
+  align-items: flex-end;  
+  @include font(400, 1.3rem, 123%);
+}
+
+@media (max-width:48em) {
+  .footer__item {
+    @include font(400, 2.8rem, 123%);
+  }
+}

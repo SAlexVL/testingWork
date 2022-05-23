@@ -1,0 +1,12 @@
+.file__span {
+  max-width: 80%;
+  @include font(600, 1.5rem, 100%);
+  @include dots-text;
+  text-transform: uppercase;
+}
+
+@media (max-width:48em) {
+  .file__span {
+    @include font(600, 2.6rem, 100%);
+  }
+}

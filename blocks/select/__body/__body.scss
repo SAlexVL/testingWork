@@ -1,0 +1,31 @@
+.select__body {
+  position: relative;
+  width: 36.75rem;
+  max-height: 19rem;
+  overflow-y: auto;
+  scrollbar-color: rgba(62, 156, 220, 1) rgba(61, 64, 80, 1);
+  scrollbar-width: thin;
+  padding: 1rem;
+  @include font(400, 1.8rem, 189%);
+  z-index: 100;
+  display: none;
+}
+.select__body::-webkit-scrollbar {
+  width: .7rem;
+  background-color: rgba(61, 64, 80, 1);
+  border-radius: .3rem;
+}
+
+.select__body::-webkit-scrollbar-thumb {
+  background-color: rgba(62, 156, 220, 1);
+  border-radius: .3rem;
+}
+
+@media (max-width:48em) {
+  .select__body {
+    width:100%;
+    max-height: 32rem;
+    @include font(400, 2.8rem, 189%);
+    padding-top: 2rem;
+  }
+}

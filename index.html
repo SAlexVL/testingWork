@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta name="description" content="another website">
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/nouislider.min.css">
+	<link href="css/style.css" rel="stylesheet">
+	<script defer src="js/nouislider.min.js"></script>
+	<script defer src="js/script.min.js"></script>
+	<title>Title test</title>
+</head>
+
+<body>
+
+	<header class="header header--background--dark header--fixed">
+		<div class="header__wrap">
+			<div class="container">
+				<a href="/" class="title title--size--big">LoremIpsum.<span
+						class="title__span title__span--color--blue">Net</span></a>
+				<nav class="header__nav">
+					<ul class="header__menu">
+						<li class="header__link header__link--size--big"><a href="#"
+								class="header__link header__link--focused">Бизнес</a></li>
+						<li class="header__link header__link--size--big"><a href="#" class="header__link header__link--focused">О
+								нас</a></li>
+						<li class="header__link header__link--size--big"><a href="#"
+								class="header__link header__link--focused">Цены</a></li>
+						<li class="header__link header__link--size--big"><a href="#"
+								class="header__link header__link--focused">Оформить заказ</a></li>
+					</ul>
+				</nav>
+				<button type="button" class="header__burger">
+					<img loading="lazy" decoding="async" src="./img/burger.svg" alt="мобильное меню бургер">
+				</button>
+				<button type="button" class="header__cross">
+					<img loading="lazy" decoding="async" src="./img/cross.svg" alt="мобильное меню крестик">
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+
+		<section class="hero">
+			<div class="hero__wrap">
+				<picture class="hero__img">
+					<source srcset="./img/hero.avif" type="image/avif">
+					<source srcset="./img/hero.webp" type="image/webp">
+					<img loading="lazy" decoding="async" src="./img/hero.jpg" data-src="./img/hero.jpg" alt="главный банер">
+				</picture>
+				<div class="container">
+					<h1 class="title title--color--black title--size--big"><span
+							class="title__span title__span--color--blue">Lorem ipsum</span>
+						dolor sit ametconsectetur <span class="title__span title__span--color--blue">adipiscing</span>
+					</h1>
+					<div class="hero__description hero__description--color--black">
+						<h2 class="hero__title">At vero eos et accusamus et iusto odio dignissimos ducimus!</h2>
+						<ul>
+							<li class="hero__item">Totam rem aperiam eaque ipsa</li>
+							<li class="hero__item">Sit voluptatem accusantium doloremque laudantium</li>
+							<li class="hero__item">Sed ut perspiciatis, unde omnis iste natus error</li>
+						</ul>
+					</div>
+					<div class="hero__buttons">
+						<button type="button"
+							class="hero__button button button--color--blue hero__button--focused">заказать</button>
+						<a href="#" class="hero__button button button--color--white hero__button--focused">подробнее</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="checkout checkout--background--dark">
+			<div class="container">
+				<div class="checkout__wrap">
+					<h2 class="checkout__header title title--size--big">Оформление <span
+							class="title__span title__span--color--blue">Заказа</span></h2>
+					<div class="checkout__subheader checkout__subheader--color--grey">Перед заполнением формы ознакомьтесь с нашей
+						схемой работы!</div>
+					<div class="checkout__steps">
+						<div class="checkout__step">
+							<div class="checkout__img checkout__img--round">
+								<svg class="checkout__icon">
+									<use xlink:href="./img/icons/sprite.svg#find"></use>
+								</svg>
+							</div>
+							<div class="checkout__description">Lorem ipsum dolor sit amet</div>
+						</div>
+						<div class="checkout__step">
+							<div class="checkout__img checkout__img--round">
+								<svg class="checkout__icon">
+									<use xlink:href="./img/icons/sprite.svg#percent"></use>
+								</svg>
+							</div>
+							<div class="checkout__description">Сonsecteturadipiscing elit</div>
+						</div>
+						<div class="checkout__step">
+							<div class="checkout__img checkout__img--round">
+								<svg class="checkout__icon">
+									<use xlink:href="./img/icons/sprite.svg#file"></use>
+								</svg>
+							</div>
+							<div class="checkout__description">Sed do eiusmod tempor</div>
+						</div>
+						<div class="checkout__step">
+							<div class="checkout__img checkout__img--round">
+								<svg class="checkout__icon">
+									<use xlink:href="./img/icons/sprite.svg#send"></use>
+								</svg>
+							</div>
+							<div class="checkout__description">Esse cillum dolore eu fugiat</div>
+						</div>
+						<div class="checkout__step">
+							<div class="checkout__img checkout__img--round">
+								<svg class="checkout__icon">
+									<use xlink:href="./img/icons/sprite.svg#money"></use>
+								</svg>
+							</div>
+							<div class="checkout__description">Excepteur sint occaecat cupidatat non proident</div>
+						</div>
+					</div>
+					<form action="#" method="POST" class="form form--size--big">
+						<div class="form__item">
+							<div class="select form__element" id="form-element">
+								<div class="select__categories select__categories--background--white">
+									<div class="select__header">
+										<span class="select__title select__title--color--black" data-name="SELECT-SYSTEM">Выберите тип
+											системы</span>
+										<svg class="select__img">
+											<use xlink:href="./img/icons/sprite.svg#arrow-select"></use>
+										</svg>
+										<div class="select__arrow">
+											<img src="./img/icons/arrow-white.svg" alt="белая стрелка">
+										</div>
+									</div>
+									<ul class="select__body">
+										<li class="select__item">Sed ut perspiciatis</li>
+										<li class="select__item">Nemo enim ipsam</li>
+										<li class="select__item">Et harum quidem</li>
+										<li class="select__item">Temporibus autem</li>
+										<li class="select__item">Itaque earum rerum</li>
+										<li class="select__item">Sed ut perspiciatis</li>
+										<li class="select__item">Nemo enim ipsam</li>
+										<li class="select__item">Et harum quidem</li>
+										<li class="select__item">Temporibus autem</li>
+										<li class="select__item">Itaque earum rerum</li>
+									</ul>
+								</div>
+							</div>
+							<label class="form__element">
+								<input class="form__input form__input--background--white" type="email" name="EMAIL"
+									placeholder="Ваш e-mail" required>
+								<span class="form__error" id="fileErrorEmail">Ошибка валидации</span>
+							</label>
+							<label class="form__element">
+								<input class="form__input form__input--background--white" type="text" name="NAME" placeholder="Ваше имя"
+									required>
+								<span class="form__error" id="fileErrorName">Ошибка валидации</span>
+							</label>
+						</div>
+						<div class="form__item">
+							<div class="range range--medium">
+								<div class="range__legend">
+									<div class="range__title">Sed ut perspiciatis, unde omnis iste natus</div>
+									<div class="range__value" id="sliderValue" data-name="SELECT-PERCENTS">75 %</div>
+								</div>
+								<div class="range__slider" id="slider-round"></div>
+							</div>
+							<div class="file form__wrap">
+								<label class="file__wrap file__wrap--background" for="file">
+									<input type="file" class="file__input" id="file" name="FILE" accept=".pdf, .doc, .docx, .ttf"
+										multiple="">
+									<svg class="file__icon">
+										<use xlink:href="./img/icons/sprite.svg#file-button"></use>
+									</svg>
+									<span class="file__span file__span--color--dark">Прикрепить файл</span>
+								</label>
+								<span class="form__error" id="fileErrorFile">Ошибка валидации</span>
+							</div>
+						</div>
+						<div class="form__item">
+							<button type="submit"
+								class="form__button form__button--focused button button--color--blue">Отправить</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer footer--background--dark">
+		<div class="container">
+			<div class="footer__wrap">
+				<div class="footer__list">
+					<div class="footer__item">
+						© 2018 «<span class="footer__logo footer__logo--size--big">LoremIpsum.net</span>» Все права защищены.
+					</div>
+				</div>
+				<div class="footer__list">
+					<div class="footer__item footer__item--color--grey">
+						<svg class="footer__icon">
+							<use xlink:href="./img/icons/sprite.svg#qiwi"></use>
+						</svg>
+						<span>Qiwi wallet</span>
+					</div>
+					<div class="footer__item footer__item--color--grey">
+						<svg class="footer__icon">
+							<use xlink:href="./img/icons/sprite.svg#yandexMoney"></use>
+						</svg>
+						<span>Yandex Money</span>
+					</div>
+					<div class="footer__item footer__item--color--grey">
+						<svg class="footer__icon">
+							<use xlink:href="./img/icons/sprite.svg#webMoney"></use>
+						</svg>
+						<span>Web Money</span>
+					</div>
+				</div>
+				<div class="footer__list">
+					<a href="mailto:info@ipsum228.com" class="footer__item">
+						<svg class="footer__icon">
+							<use xlink:href="./img/icons/sprite.svg#send-footer"></use>
+						</svg>
+						<span>info@ipsum228.com</span>
+					</a>
+					<a href="#" class="footer__item">
+						<svg class="footer__icon">
+							<use xlink:href="./img/icons/sprite.svg#vk"></use>
+						</svg>
+						<span>Мы вконтакте</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>

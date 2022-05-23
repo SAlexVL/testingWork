@@ -1,0 +1,11 @@
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 48em) {
+  .footer {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}

@@ -1,0 +1,5 @@
+.button--color--blue {
+  @include button(#3E9CDC, .1rem solid #FFFFFF, .4rem);
+  color: #FFFFFF;
+  transition: .3s;
+}
